@@ -3,12 +3,62 @@
         {
             "tag": "saludo",
             "patrones": ["Hola", "Hola, como estas?", "Hola, que tal?"],
-            "respuestas": ["Hola!", "Hola! En que puedo ayudarte?", "Hola! Que tal?"]
+            "respuestas": ["Hola!", "Bienvenido a nuestra tienda de ropa.", "Como puedo ayudarte hoy?"]
         },
         {
             "tag": "despedida",
             "patrones": ["Adios", "Hasta luego", "Hasta la proxima"],
-            "respuestas": ["Adios!", "Hasta luego!", "Hasta la proxima!"]
+            "respuestas": ["Adios!", "Gracias por visitar nuestra tienda.", "Esperamos verte pronto!"]
+        },
+        {
+            "tag": "comprar_ropa",
+            "patrones": ["Quiero comprar ropa", "Busco ropa", "Necesito ropa nueva"],
+            "respuestas": ["Genial! Tenemos una amplia variedad de ropa.", "Estas buscando algo en particular?", "Aconsejamos probar la ropa antes de comprarla. Puedes visitar nuestra tienda en cualquier momento."]
+        },
+        {
+            "tag": "tallas",
+            "patrones": ["Que tallas tienes?", "Tienes talla grande?", "Tienes talla pequeña?"],
+            "respuestas": ["Tenemos tallas desde la XS hasta la XXL. Que talla buscas?", "Buscas alguna talla en especifico?", "Fondo delecha🍣🍙"]
+        },
+        {
+            "tag": "devoluciones",
+            "patrones": ["Puedo devolver un articulo?", "Cual es la politica de devoluciones?"],
+            "respuestas": ["Si, aceptamos devoluciones dentro de los 30 dias posteriores a la compra. El articulo debe estar en su estado original."]
+        },
+        {
+            "tag": "pagos",
+            "patrones": ["Que formas de pago aceptan?", "Puedo pagar con tarjeta?", "Aceptan pagos en efectivo?"],
+            "respuestas": ["Aceptamos pagos con tarjeta de credito y debito.", "Tambien puedes pagar en efectivo en nuestra tienda.", "Hacienda siempre gana"]
+        },
+        {
+            "tag": "envios",
+            "patrones": ["Hacen envios?", "Cuales son los costos de envio?", "Cuanto tarda en llegar el envio?"],
+            "respuestas": ["Si, hacemos envios a todo el pais.", "El costo de envio es de $5.00.", "El envio tarda entre 3 y 5 dias habiles."]
+        },
+        {
+            "tag": "promociones",
+            "patrones": ["Tienen promociones?", "Que promociones tienen?", "Hay descuentos?"],
+            "respuestas": ["Si, tenemos promociones en toda la tienda.", "Puedes ver nuestras promociones en la seccion de ofertas.", "Tambien puedes suscribirte a nuestro boletin para recibir descuentos exclusivos."]
+        },
+        {
+            "tag": "ubicacion",
+            "patrones": ["Donde estan ubicados?", "Cual es su direccion?", "Como llego a su tienda?"],
+            "respuestas": ["Estamos ubicados en la calle principal, a una cuadra del parque central.", "Nuestra direccion es Calle Principal #123.", "Puedes ver nuestra ubicacion en el mapa de nuestra pagina web."]
+        },
+        {
+            "tag": "horarios",
+            "patrones": ["Cuales son sus horarios?", "A que hora abren?", "A que hora cierran?"],
+            "respuestas": ["Abrimos de lunes a viernes de 9:00 a 18:00.", "Los sabados abrimos de 10:00 a 14:00.", "Cerramos los domingos."]
+        },
+        {
+            "tag": "contacto",
+            "patrones": ["Como los contacto?", "Cual es su numero de telefono?", "Tienen correo electronico?"],
+            "respuestas": ["Puedes contactarnos al 123-456-7890.", "Tambien puedes enviarnos un correo electronico", "Nuestro correo electronico es info@uie"]
+        },
+        {
+            "tag": "denuncia",
+            "patrones": ["Quiero denunciar un problema", "Tengo un problema con un producto", "Quiero reportar un error"],
+            "respuestas": ["No voy a dimitir", "Que paso? Un piquito?", "No te preocupes, podemos ayudarte con cualquier problema que tengas."]
         }
     ]
 }
