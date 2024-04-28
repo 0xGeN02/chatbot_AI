@@ -58,9 +58,9 @@ modelo.add(keras.Input(shape=(len(entrenamiento[0]),))) # capa de entrada con la
 modelo.add(keras.layers.Dense(10, activation='relu')) # capa oculta con 10 neuronas y activacion relu, activacion relu: si el valor es menor a 0 se convierte en 0
 modelo.add(keras.layers.Dense(len(salida[0]), activation='softmax')) # capa de salida con la longitud de la lista de salida, softmax para obtener la probabilidad de cada tag
 
-modelo.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy']) # regresion de la red
+modelo.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy']) # regresion de la red categorical_crossentropy:
 
-modelo.fit(entrenamiento, salida, epochs=1000, batch_size=8) # entrenar la red con 1000 epocas, 8 muestras por epoca y mostrar metricas
+modelo.fit(entrenamiento, salida, epochs=500, batch_size=8) # entrenar la red con 1000 epocas, 8 muestras por epoca y mostrar metricas
 modelo.save("output/modelo.keras") # guardar el modelo
 
 def bot():
@@ -83,4 +83,5 @@ def bot():
             if content["tag"] == tag:
                 print(f"Bot: {random.choice(content['respuestas'])}") # imprimir una respuesta aleatoria del tag encontrado
         print(f"Probabilidad: {prediccion[0][prediccionIndex]}") # imprimir la probabilidad de prediccion
+        print("Length entrada:",len(entrenamiento[0]),"Length salida:", len(salida[0]))
 bot()
